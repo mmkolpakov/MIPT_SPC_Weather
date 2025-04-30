@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Фон неба -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M0,0h24v24h-24z"
+        android:fillAlpha="0.1" />
+
+    <!-- Линии ветра -->
+    <path
+        android:strokeColor="#90CAF9"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M5,8h10.5c1.38,0 2.5,1.12 2.5,2.5S16.88,13 15.5,13H4" />
+
+    <path
+        android:strokeColor="#64B5F6"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M4,12h11.5c1.38,0 2.5,1.12 2.5,2.5S16.88,17 15.5,17H12" />
+
+    <path
+        android:strokeColor="#42A5F5"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M3,16h8.5c1.38,0 2.5,1.12 2.5,2.5S12.88,21 11.5,21H8" />
+
+    <!-- Дополнительные завихрения -->
+    <path
+        android:strokeColor="#2196F3"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M19,8c0.83,-0.63 2,-0.84 3,-0.5C22.5,7.8 23,8.5 23,9s-0.5,1.2 -1,1.5c-1,0.34 -2.17,0.13 -3,-0.5" />
+
+    <path
+        android:strokeColor="#2196F3"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M3,5.5C3.67,4.95 4.67,4.78 5.5,5.08C6.17,5.33 6.58,5.91 6.58,6.33s-0.42,1 -1.08,1.25C4.67,7.89 3.67,7.72 3,7.17" />
+</vector>

@@ -1,0 +1,75 @@
+package ru.hse.miem.miptweather.domain.model
+
+enum class WeatherCondition {
+    // Ясно
+    CLEAR_SKY_DAY,
+    CLEAR_SKY_NIGHT,
+
+    // Облачно
+    FEW_CLOUDS_DAY,
+    FEW_CLOUDS_NIGHT,
+    SCATTERED_CLOUDS,
+    BROKEN_CLOUDS,
+    OVERCAST_CLOUDS,
+
+    // Атмосферные явления (туман, дымка и т.д.)
+    MIST,
+    SMOKE,
+    HAZE,
+    DUST_WHIRLS,
+    FOG,
+    SAND,
+    DUST,
+    VOLCANIC_ASH,
+    SQUALLS,
+    TORNADO,
+
+    // Дождь
+    LIGHT_RAIN,
+    MODERATE_RAIN,
+    HEAVY_RAIN,
+    VERY_HEAVY_RAIN,
+    EXTREME_RAIN,
+    FREEZING_RAIN,
+    LIGHT_SHOWER_RAIN,
+    SHOWER_RAIN,
+    HEAVY_SHOWER_RAIN,
+    RAGGED_SHOWER_RAIN,
+
+    // Морось
+    LIGHT_DRIZZLE,
+    DRIZZLE,
+    HEAVY_DRIZZLE,
+    LIGHT_DRIZZLE_RAIN,
+    DRIZZLE_RAIN,
+    HEAVY_DRIZZLE_RAIN,
+    SHOWER_DRIZZLE,
+
+    // Снег
+    LIGHT_SNOW,
+    SNOW,
+    HEAVY_SNOW,
+    SLEET,
+    LIGHT_SHOWER_SLEET,
+    SHOWER_SLEET,
+    LIGHT_RAIN_SNOW,
+    RAIN_SNOW,
+    LIGHT_SHOWER_SNOW,
+    SHOWER_SNOW,
+    HEAVY_SHOWER_SNOW,
+
+    // Гроза
+    THUNDERSTORM,
+    LIGHT_THUNDERSTORM,
+    HEAVY_THUNDERSTORM,
+    RAGGED_THUNDERSTORM,
+    THUNDERSTORM_RAIN,
+    THUNDERSTORM_LIGHT_RAIN,
+    THUNDERSTORM_HEAVY_RAIN,
+    THUNDERSTORM_DRIZZLE,
+    THUNDERSTORM_LIGHT_DRIZZLE,
+    THUNDERSTORM_HEAVY_DRIZZLE,
+
+    // Неизвестно
+    UNKNOWN
+}
